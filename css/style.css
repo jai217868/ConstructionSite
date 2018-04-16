@@ -1,0 +1,679 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,800,800italic,700);
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	padding:0;
+	margin:0;
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+section {
+	padding-top:90px;
+	padding-bottom:90px;
+}
+
+
+
+
+/* menuuuuuu style*/
+
+.topmenu
+{
+	background-color: #625449;
+    
+}
+.topmenu h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 11px;
+}
+
+header.sticky {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.header-section {
+  position: relative;
+  z-index: 90;
+}
+.header-section .navbar.navbar-default {
+    background: #ffffff00 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    margin: 0;
+}
+.header-section .nav.navbar-nav.navbar {
+    float: none;
+    text-align: right;
+}
+
+.header-section .nav.navbar-nav.navbar > li > a {
+         color: #fff;
+          padding: 0px 12px;
+    font-size: 16px;
+  margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header-section .nav.navbar-nav.navbar > li > a:hover {
+         color: #f13294;
+}
+.header-section .nav.navbar-nav.navbar >li:hover , .header-section .nav.navbar-nav.navbar >li:active
+{
+	background-color:da973f;
+	color:#fff;
+}
+.header-section .nav.navbar-nav.navbar >li {
+    float: none;
+    display: inline-block;    margin: 9px; 
+}
+.header-section .nav.navbar-nav.navbar >li:last-child {
+    float: none;
+    display: inline-block;    margin: 6px; border-right: none;
+}
+
+.navbar-brand span{
+    font-size: 38px;
+    color: white; 
+}
+.navbar-brand img{
+	width:100%;
+	
+}
+.nav.navbar.navbar-default.affix {
+    background: black;
+    width: 100%;
+    box-shadow: rgba;
+    box-shadow: 0px 4px 4px #80808042;
+}
+.header-section .affix {
+    position: fixed;
+    background: #214066 !important;
+    width: 100%;
+	transition: 0.5s linear;
+}
+.navbar-brand{
+	color:#fff;
+}
+
+.header-section .nav.navbar-nav.navbar > li > .btn{
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px 16px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+	color: white;
+    background: #cbc217;
+    font-weight: 600;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+
+/************head*************/
+
+#head_section {
+	background-image: linear-gradient(rgba(52,232,158,0.90), rgba(114,143,230,0.90)),url(../images/services_bg.jpeg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.head_text.text-center h1 {
+	margin-top: 130px;
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.head_text.text-center p {
+    font-size: 16px;
+    color: white;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+
+.head_text.text-center .btn {
+	background: #fff200;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-bottom: 120px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+
+/************form*************/
+
+.heading_form h3{
+	color:#083174;
+}
+
+.heading_form p{
+	color:#6e8086;
+}
+
+.Complaints_Grievances .complaints_form input{	  
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #dde6e9;
+}
+
+.Complaints_Grievances .complaints_form .form_id{	
+	width: 100%;
+}
+
+.Complaints_Grievances .complaints_form .first_name{	
+	width: 49%;
+}
+
+.Complaints_Grievances .complaints_form .last_name{	
+	width: 50%;
+}
+
+.Complaints_Grievances .complaints_form .mobile{	
+	width: 100%;
+}
+
+.Complaints_Grievances .complaints_form .email{	
+	width: 100%;
+}
+
+.Complaints_Grievances .complaints_form .flat_number{	
+	width: 100%;
+}
+
+.Complaints_Grievances .complaints_form textarea{	
+	width: 100%;
+    background: #ffffff00;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    border: 1px solid #dde6e9;
+    margin: 0 0 15px;
+    padding: 10px;
+	height: 117px;
+	border-radius: 5px;
+    box-sizing: border-box;
+  
+}
+
+
+.Complaints_Grievances .complaints_form .btn{	
+	background: #fff200;
+    display: inline-block;
+    padding: 15px 30px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.option1 {
+    border: 1px solid #dde6e9;
+    width: 100%;
+    padding: 15px;
+	margin: 0 0 15px;
+    /* background: #f2f2f2; */
+    border-radius: 5px;
+   
+}
+
+.option2 {
+    border: 1px solid #dde6e9;
+    width: 100%;
+    padding: 15px;
+	margin: 0 0 15px;
+    /* background: #f2f2f2; */
+    border-radius: 5px;
+   
+}
+
+
+/************Services*************/
+#services{
+	background-image: linear-gradient(rgba(0,67,148,0.90), rgba(0,67,148,0.90)),url(../images/services_bg.jpeg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.Main_heading h2{
+	margin-bottom:20px;
+	text-align:center;
+	font-size:30px;
+	color:white;
+	text-transform: uppercase;
+}
+
+.Main_heading hr{
+	display: inline-block;
+	width:50px;
+	border:1px solid white;
+}
+
+.Main_heading h2 span{
+	font-size:30px;
+	font-weight:600;
+	color:#fff200;
+}
+
+.services_box{
+	color:white;
+}
+
+.services_box .col-sm-3.service_img img {
+	width: 50px;
+	padding-top: 20px;
+   
+}
+
+.services_box h3 {
+    font-size:20px;
+}
+
+
+/*****************About us*****************/
+.Main_heading1.text-center hr{
+	display: inline-block;
+	width:50px;
+	border:1px solid black;
+}
+
+.about_us_img img {
+	width:100%;
+}
+
+/*****************policy*****************/
+#rules_and_policy {
+	padding-bottom:0px;
+	padding-top:0px;
+	background:#19559e;
+}
+
+.col-sm-6.left_container_image {
+	padding:0;
+	margin:0;
+}
+
+.col-sm-6.left_container_image img{
+	width:100%;
+}
+
+.col-sm-6.right_side_container .our_services.text-center h1{
+	margin-top: 33px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.col-sm-6.right_side_container .our_services.text-center h1 span{
+	color: #fff200;
+    font-weight: 600;
+}
+
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+    border: none;
+}
+
+.panel.panel-default .panel-heading {
+    color: #fff;
+    background-color: #3377c9;
+    border-color: #3377c9;
+}
+
+/*****************events*****************/
+.event_box{
+	width:100%;
+	height:450px;
+	background-size: cover;
+}
+
+.event_box.holi {
+	background-image: linear-gradient(rgba(52,232,158,0.75), rgba(114,143,230,0.75)),url('../images/holi-2014.jpg');
+	background-size: cover;
+	background-position:center center;
+}
+
+.event_box.diwali {
+	background-image: linear-gradient(rgba(52,232,158,0.75), rgba(114,143,230,0.75)),url('../images/diwali-1.jpg');
+	background-size: cover;
+	background-position:center center;
+}
+
+.event_box.lohri {
+	background-image: linear-gradient(rgba(52,232,158,0.90), rgba(114,143,230,0.90)),url('../images/Lohri-Tricholi-Dogra-Culture-Dogra-Tradition-Jammu-6.jpg');
+	background-size: cover;
+	background-position:center center;
+}
+
+.date_text{
+	padding-top: 71px;
+	transition-duration: 0.4s;
+}
+
+.hide_box {
+    display: none;
+	transition-duration: 0.4s;
+}
+
+
+.event_box:hover .date_text{
+	padding-top: 0px;
+	transition-duration: 0.4s;
+}
+
+.event_box:hover .hide_box{
+    display: block;
+	transition-duration: 0.4s;
+}
+
+
+.col-sm-4.text-center .hide_box .btn{
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    background: white;
+    color: blue;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    /* border: 1px solid transparent; */
+    border-radius: 36px;
+}
+
+.col-sm-4.text-center .event_box img {
+    margin-top: 30px;
+}
+
+.col-sm-4.text-center .event_box h2 {
+    margin-top: -75px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.col-sm-4.text-center .event_box h4 {
+    color: white;
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.col-sm-4.text-center .event_box h2 span{
+    font-size: 10px;
+    color: white;
+    
+}
+
+.col-sm-4.text-center .event_box h5 {
+    margin-top: 80px;
+    font-size: 20px;
+    color: white;
+}
+
+.col-sm-4.text-center .event_box p {
+    margin-top: 30px;
+    font-size: 14px;
+    color: white;
+}
+
+.col-sm-4.text-center .event_box .btn {
+    margin-top: 30px;
+	margin-bottom:50px;
+    font-size: 14px;
+
+}
+
+
+
+
+#footernew{
+	background:#214066;
+	padding-bottom:0px;
+}
+
+#footer1{
+	background:#214066;
+	
+}
+
+.footer_about h4{
+	color:white;
+	font-size:20px;
+	font-weight:500;
+}
+
+.footer_about p{
+	color:white;
+}
+
+.copyright.text-center p{
+	color:white;
+	padding-bottom:15px;
+}
+
+
+ul.categories_footer {
+    padding-top: 22px;
+}
+
+ul.categories_footer li {
+    padding: 10px;
+    list-style: none;
+}
+
+ul.categories_footer li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+
+ul.social-icons_footer {
+    padding-top: 22px;
+	color: white;
+}
+
+ul.social-icons_footer li {
+    padding: 10px;
+    list-style: none;
+}
+
+
+ul.social-icons_footer li .fa{
+    font-size:25px;
+	color: white;
+}
+
+ul.social-icons_footer li span {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.footer-social-icons1 {
+    display: inline-block;
+    margin: 0 auto;
+    color: black;
+}
+
+ul.social-icons1 {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul.social-icons1 li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a.social-icon1 {
+    display: inline-block;
+    width: 30px;
+    background: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-left: 10px;
+}
+ 
+.Main_heading1.text-center h2 span{
+	font-weight:600;
+}
+
+
+
+
+
+
+
+
+/******************Mobile Responsive*******************/
+
+@media screen and (max-width:991px) {
+	.header-section .nav.navbar-nav.navbar > li > a{
+		padding: 0px 0px;
+	}
+	
+	.Complaints_Grievances .complaints_form .last_name {
+    width: 50%;
+    float: right;
+	}
+	
+	.services_box h3 {
+    font-size: 15px;
+    font-weight: 600;
+	}
+	
+	.col-sm-6.left_container_image img{
+		height: 418px;
+	}
+	
+	.panel.panel-default .panel-heading .panel-title {
+    
+    font-size: 14px;
+   
+	}
+}
+
+
+@media screen and (max-width:767px) {
+	
+	.header-section .nav.navbar-nav.navbar >li {
+    float: none;
+    display: inherit;
+    margin: 9px;
+	}
+	
+	
+	
+	.navbar-header{
+		background: #000;
+	}
+	
+	.navbar-collapse.collapse{
+		background: #000;
+	}
+	
+	.head_text.text-center h1 {
+    font-size: 55px;
+	}
+
+	.navbar-brand > img {
+	width: 28px;
+    margin-left: 20px;
+	}
+	
+	.event_box {
+    margin-bottom: 10px;
+	}
+	
+	.Complaints_Grievances .complaints_form .last_name {
+    width: 50%;
+	float:right;
+	}
+	
+	.services_box {
+    text-align: center;
+	}
+	
+	.footer_about.links.text-center {
+		display:none;
+	}
+
+}
